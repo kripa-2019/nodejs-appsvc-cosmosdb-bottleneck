@@ -10,12 +10,12 @@ pool:
   vmImage: ubuntu-latest
 
 variables:
-  webAppName: '<Name of your webapp>'
-  serviceConnection: '<Name of your webARM Service connection>'
-  azureSubscriptionId: '<Azure subscriptionId>'
+  webAppName: 'Kripas-load-test-demo'
+  serviceConnection: 'LoadTestDemo'
+  azureSubscriptionId: '3f76f796-8d66-4f71-ad48-82f5d3fed6ad'
   loadTestResource: '<Name of your load test resource>'
-  loadTestResourceGroup: '<Name of your load test resource group>'
-  location: 'EAST US'
+  loadTestResourceGroup: 'DefaultResourceGroup-CUS'
+  location: 'Central US'
 
 
 stages:
